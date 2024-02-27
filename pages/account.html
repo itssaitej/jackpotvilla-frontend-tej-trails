@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackpot Villa | Account </title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container body_container d-block mx-auto">
+
+        <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+            <div class="col-lg-4 col-sm-4 col-xs-12">
+                <a class="navbar-brand d-block mx-auto" href="../index.html"><img src="../img/logo.png" class="animate"
+                        alt="" height="100"></a>
+            </div>
+            <!-- <div class="col-lg-2 col-xs-12 m-0 p-0"></div> -->
+            <div class="col-lg-8 col-sm-8 col-xs-12 m-0 pr-2 mx-auto">
+                <ul class="list-group list-group-horizontal-sm menu_flex nav_list" style="list-style-type: none;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./lobby.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Account <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promotions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Invite Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="navbar2" class="navbar fixed-top navbar-expand-lg py-2">
+            <div class="row w-100">
+                <div class="col-lg-4 col-sm-4 col-xs-12">
+                    <a class="navbar-brand m-0 p-0 d-block mx-auto" href="../index.html"><img src="../img/logo.png"
+                            style="text-align: center;" alt=""></a>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-xs-12 m-0 pr-2 mx-auto">
+                    
+                    <ul class="list-group list-group-horizontal-sm menu_flex nav_list" style="list-style-type: none;">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./lobby.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Account <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Invite Friends</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row w-100 m-0 p-0 bg-dark sticky-top scoll_nav">
+            <div class="col-lg-4 col-sm-12 col-xs-12 my-2">
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="Search Games" aria-label="search-games"
+                        aria-describedby="addon-wrapping">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa fa-search"
+                                aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-sm-2 col-xs-12 my-2"></div> -->
+            <div class="col-lg-8 col-sm-12 col-xs-12 mt-2 my-0">
+
+                <ul class="list-group list-group-horizontal-sm menu_flex" style="list-style-type: none;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">New <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bonus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VIP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper account_wrapper">
+            <div class="container">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                            role="tab">Account Details</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                            role="tab">View Transactions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-withdrawal-tab" data-toggle="pill" href="#pills-withdrawal"
+                            role="tab">Withdrawal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-preferences"
+                            role="tab">Preferences</a>
+                    </li>
+
+                    <li class="nav-item mr-0 ml-auto deposit">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                            role="tab">Deposit</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active p-2" id="pills-home">
+                        Account Details
+                        <div class="row">
+                            <div class="col-lg-8 col-sm-6 col-xs-12 mt-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <strong> User name:</strong>
+                                        <a href="#"><span class="float-right">Change Password</span></a>
+                                    </div>
+                                </div>
+                                <table class="table table-bordered w-100 mt-4">
+                                    <tr>
+                                        <td>
+                                            Name
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Date Of Birth
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Address
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            City
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            State
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Pincode
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button class="btn btn-warning">Edit Profile</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="card bg-transparent">
+                                    <div class="card-body">
+                                        <strong> Email ID:</strong>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent mt-2">
+                                    <div class="card-body">
+                                        <strong> Mobile Number:</strong>
+                                    </div>
+                                </div>
+
+                                <table class="table table-bordered w-100 mt-4">
+                                    <div class="card bg-transparent">
+                                        <div class="card-body">
+                                            Address Proof
+                                        </div>
+                                    </div>
+                                    <div class="card bg-transparent">
+                                        <div class="card-body">
+                                            PAN Card
+                                        </div>
+                                    </div>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-warning">Edit Profile</button>
+                                        </td>
+
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+                                <div class="card bg-transparent p-2">
+                                    <img src="../img/wild.svg" height="150" alt="">
+                                    <div class="card-body">
+                                        <button class="btn btn-warning btn-block">Update Avatar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade p-2" id="pills-profile">
+                        <div class="container bg-dark p-4">
+                            <div class="row m-0 p-0">
+                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                    <div class="card text-center p-3">
+                                        <div class="card-header mb-1">
+                                            Bitcoin
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="../img/bitcoin.png" height="100" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <button class="btn btn-block btn-warning">Deposit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                    <div class="card text-center p-3">
+                                        <div class="card-header mb-1">
+                                            Ethererum
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="../img/ethereum.png" height="100" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <button class="btn btn-block btn-warning">Deposit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-xs-12">
+                                    <div class="card text-center p-3">
+                                        <div class="card-header mb-1">
+                                            Credit Card
+                                        </div>
+                                        <div class="card-img">
+                                            <img src="../img/creditcard.png" height="100" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <button class="btn btn-block btn-warning">Deposit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade p-2" id="pills-contact">
+                        <table class="table table-striped">
+                            <thead class="thead-dark">
+                                <th>S.No</th>
+                                <th>Type</th>
+                                <th>Reference ID</th>
+                                <th>Date</th>
+                                <th>Amount</th>
+                                <th>Balance</th>
+                            </thead>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade p-2" id="pills-preferences">
+                        <div class="card py-3 px-1 mt-2 bg-transparent">
+                            <div class="row px-3 mx-3">
+                                <label> SMS </label>
+                                <div class="custom-control custom-switch mr-2 ml-auto">
+                                    <input type="checkbox" class="custom-control-input" id="sms">
+                                    <label class="custom-control-label" for="sms"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card py-3 px-1 mt-2 bg-transparent">
+                            <div class="row px-3 mx-3">
+                                <label> Phone </label>
+                                <div class="custom-control custom-switch mr-2 ml-auto">
+                                    <input type="checkbox" class="custom-control-input" id="phone">
+                                    <label class="custom-control-label" for="phone"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card py-3 px-1 mt-2 bg-transparent">
+                            <div class="row px-3 mx-3">
+                                <label> Mail </label>
+                                <div class="custom-control custom-switch mr-2 ml-auto">
+                                    <input type="checkbox" class="custom-control-input" id="mail">
+                                    <label class="custom-control-label" for="mail"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card py-3 px-1 mt-2 bg-transparent">
+                            <div class="row px-3 mx-3">
+                                <label> I want to receive Promotional SMS. </label>
+                                <div class="custom-control custom-switch mr-2 ml-auto">
+                                    <input type="checkbox" class="custom-control-input" id="msg_sms">
+                                    <label class="custom-control-label" for="msg_sms"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card py-3 px-1 mt-2 bg-transparent">
+                            <div class="row px-3 mx-3">
+                                <label> I want to receive Promotional Mails. </label>
+                                <div class="custom-control custom-switch mr-2 ml-auto">
+                                    <input type="checkbox" class="custom-control-input" id="msg_mail">
+                                    <label class="custom-control-label" for="msg_mail"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade p-2" id="pills-withdrawal">
+                        <div class="card bg-transparent m-2 p-2">
+                        <label for="Withdrawal" class=" my-2">Withdrawal Type</label>
+                          <select class="custom-select my-2" id="withdrawal">
+                              <option selected>IMPS or Paytm</option>
+                              <option value="1">NEFT</option>
+                            </select>
+                          <label for="Withdrawal" class=" my-2">Transfer To</label>
+                              <select class="custom-select my-2" id="transfer">
+                                <option selected>Choose...</option>
+                                <option value="1">Bank</option>
+                                <option value="2">PayTM</option>
+                              </select>
+                            <label for="Withdrawal" class=" my-2">Enter Amount to withdraw</label>
+                            <input type="number" min="0" class="form-control my-2" placeholder="Username">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wrapper_container m-0 p-0 py-4">
+            <h4>
+                Important Links
+            </h4>
+            <ul class="footer_links p-0">
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#"> Contact Us</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> Prrivacy policy</a></li>
+                <li><a href="#"> Support</a></li>
+            </ul>
+
+            <div class="wrapper_container pt-4">
+                <div class="row m-0 p-0">
+                    <div class="col-lg-4 col-sm-6 col-xs-12">
+                        <img src="../img/logo.png" class="base_logo" height="120" alt="">
+                    </div>
+                    <div class="col-lg-8 col-sm-6 col-xs-12 text-white">
+                        Here at Jackpot Villa, we provide a vivid gaming experience to our fellow wagerer enthusiasts. Come join our arena to play against the best, in a fair and safe play and win exciting rewards and cash prizes.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script>
+        $('.multi-level-dropdown .dropdown-submenu > a').on("mouseenter", function (e) {
+            var submenu = $(this);
+            $('.multi-level-dropdown .dropdown-submenu .dropdown-menu').removeClass('show');
+            submenu.next('.dropdown-menu').addClass('show');
+            e.stopPropagation();
+        });
+
+        $('.multi-level-dropdown .dropdown').on("hidden.bs.dropdown", function () {
+            // hide any open menus when parent closes
+            $('.multi-level-dropdown .dropdown-menu.show').removeClass('show');
+        });
+    </script>
+
+</body>
+
+</html>
